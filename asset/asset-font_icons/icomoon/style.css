@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?k63wn7');
+  src:  url('fonts/icomoon.eot?k63wn7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?k63wn7') format('truetype'),
+    url('fonts/icomoon.woff?k63wn7') format('woff'),
+    url('fonts/icomoon.svg?k63wn7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-address-card-regular:before {
+  content: "\e900";
+}
+.icon-message-regular:before {
+  content: "\e901";
+}
+.icon-rectangle-list-regular:before {
+  content: "\e902";
+}
+.icon-car-solid:before {
+  content: "\e903";
+}
